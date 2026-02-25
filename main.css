@@ -157,6 +157,13 @@ body {
     padding: 3px;
 }
 
+.experience-list > .list-item p a {
+    text-decoration: none;
+}
+
+.experience-list > .list-item p a:hover {
+    text-decoration: underline;
+}
 .work-title {
     font-weight: 600 !important;
 }
