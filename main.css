@@ -9,6 +9,23 @@ body {
     margin: 0;
 }
 
+/* 930px wide */
+
+@media only screen and (max-width: 930px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container-item {
+        width: 100% !important;
+    }
+
+    .container-item h2 {
+        width: max-content;
+        margin: auto;
+    }
+}
+
 /* NAVBAR */
 
 .navbar {
