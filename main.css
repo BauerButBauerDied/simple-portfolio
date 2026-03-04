@@ -27,6 +27,10 @@ body {
 }
 
 @media only screen and (max-width: 602px) {
+    .body {
+        overflow: hidden !important;
+    }
+
     .navbar {
         flex-direction: column;
         max-height: fit-content;
@@ -80,11 +84,24 @@ body {
 
     .container-item {
         font-size: x-large;
+        padding: 5px !important;
+        padding-right: 0px;
     }
 
     .list-item p {
         width: fit-content !important;
         margin: auto;
+    }
+
+    .footer {
+        max-height: max-content !important;
+        gap: 0.5rem;
+    }
+
+    .social-links {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 1rem;
     }
 }
 
